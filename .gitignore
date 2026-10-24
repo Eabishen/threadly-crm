@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Builds / output
+dist/
+build/
+.next/
+.next-build/
+payload-cloud/
+
+# Payload
+# keep generated/ — Payload collections are code-first, but ignore anything that
+# ends up in a .generated directory
+payload-draft-templates/
+
+# Environment / secrets — Supabase keys, local env
+.env
+.env.*
+!.env.example
+.env.example
+
+# Local databases & temp
+*.db
+*.sqlite
+tmp/
+.tmp/
+.pgdata/
+
+# Logs
+*.log
+logs/
+
+# Payload media/uploads (store in storage, not git)
+media/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
