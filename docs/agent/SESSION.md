@@ -15,7 +15,9 @@ Implement the agent **context-management workflow** for this repository. Setup t
 ## Current Status
 
 - **Context workflow fully set up and consolidated.**
-- Repo remains at the **design/requirements** stage; **no application code exists yet**.
+- **Git initialized:** `main` pushed to `origin` =
+  https://github.com/Eabishen/threadly-crm.git (initial commit `759f60e`, 5 files).
+- Repo remains at the **design/requirements** stage; **no application code yet**.
 
 ## Files (final state)
 
@@ -38,8 +40,9 @@ Implement the agent **context-management workflow** for this repository. Setup t
 
 ## Tests / Verification
 
-- Confirmed repo listing: `CLAUDE.md`, `REQUIREMENTS.md`, `docs/agent/*` only.
-  No `package.json`, no `payload.config.*`, no source tree, no `.git`.
+- Confirmed repo listing: `CLAUDE.md`, `REQUIREMENTS.md`, `docs/agent/*`,
+  `.gitignore` only (source: no `package.json`/`payload.config.*`/app tree).
+- `git init` + push to `origin/main` verified (branch tracking set, no force).
 - `AGENT.md` deletion verified (rm succeeded).
 
 ## Errors / Failed Approaches
@@ -48,7 +51,6 @@ Implement the agent **context-management workflow** for this repository. Setup t
 
 ## Remaining / Unresolved
 
-- No `.git` repository — nothing to commit yet (init before first commit if desired).
 - Open product questions per `REQUIREMENTS.md` / `PROJECT_CONTEXT.md`:
   payment gateway TBD, hosting open, admin/editor identities TBC.
 
